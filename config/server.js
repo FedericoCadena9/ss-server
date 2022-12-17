@@ -1,7 +1,6 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
+  host: env('HOST', 'https://strapi-production-90d4.up.railway.app/'),
   port: env.int('PORT', 1337),
-  url: env("PUBLIC_URL")
   app: {
     keys: env.array("APP_KEYS"),
   },
